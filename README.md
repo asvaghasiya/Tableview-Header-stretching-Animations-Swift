@@ -35,58 +35,58 @@ Then, add the following code in the scrollview delegate method scrollViewDidScro
 
 ```swift
 func scrollViewDidScroll(_ scrollView: UIScrollView){
-let y = topViewSize - (scrollView.contentOffset.y + topViewSize)
-let newHeaderViewHeight = topView.frame.height - scrollView.contentOffset.y
-
-if(y >= navigationHeight){
-if(y<=148 && y >= navigationHeight){
-let percent:Float = (Float((148-y) / y));
-topView.albumTopButton.alpha = CGFloat(percent)
-}else{
-topView.albumTopButton.alpha = 0
-}
-
-topView.albumTopButton.frame.origin.y = y
-
-if(isOpenButton == 1){
-isOpenButton = 0
-UIView.animate(withDuration: 0.1, animations: {
-self.topView.btnAlbum.frame.origin.x = self.topView.btnAlbum.frame.origin.x + 5
-self.topView.btnMusic.frame.origin.x = self.topView.btnMusic.frame.origin.x - 5
-}) { (Bool) in
-self.shakeAnimation()
-}
-}
-}else{
-if(isOpenButton == 0){
-isOpenButton = 1
-UIView.animate(withDuration: 0.1, animations: {
-self.topView.btnAlbum.frame.origin.x = self.topView.btnAlbum.frame.origin.x - 5
-self.topView.btnMusic.frame.origin.x = self.topView.btnMusic.frame.origin.x + 5
-}) { (Bool) in
-self.shakeAnimation()
-}
-}
-topView.albumTopButton.alpha = 1
-topView.albumTopButton.frame.origin.y = 100
-}
-
-let height = min(max(y, navigationHeight), 800)
-topView.frame = CGRect(x: 0, y: statusHeight, width: UIScreen.main.bounds.size.width, height: height)
-
-if(y >= topViewSize){
-topView.albumimage.transform = CGAffineTransform(scaleX: (y/topViewSize), y: (y/topViewSize))
-topView.albumTop.constant = 25
-}else{
-topView.albumTop.constant = (y-(topViewSize-25))+((y-topViewSize)*0.6)
-}
-
-if(y >= topViewSize){
-let final = ((450)-y) / ((450) - topViewSize)
-topView.albumButton.alpha = CGFloat(final)
-}else if (newHeaderViewHeight > topViewSize){
-let alphavalue = (newHeaderViewHeight/topViewSize) - 1
-topView.albumButton.alpha = CGFloat(alphavalue)
-}
-}
+        let y = topViewSize - (scrollView.contentOffset.y + topViewSize)
+        let newHeaderViewHeight = topView.frame.height - scrollView.contentOffset.y
+        
+        if(y >= navigationHeight){
+            if(y<=148 && y >= navigationHeight){
+                let percent:Float = (Float((148-y) / y));
+                topView.albumTopButton.alpha = CGFloat(percent)
+            }else{
+                topView.albumTopButton.alpha = 0
+            }
+            
+            topView.albumTopButton.frame.origin.y = y
+            
+            if(isOpenButton == 1){
+                isOpenButton = 0
+                UIView.animate(withDuration: 0.1, animations: {
+                    self.topView.btnAlbum.frame.origin.x = self.topView.btnAlbum.frame.origin.x + 5
+                    self.topView.btnMusic.frame.origin.x = self.topView.btnMusic.frame.origin.x - 5
+                }) { (Bool) in
+                    self.shakeAnimation()
+                }
+            }
+        }else{
+            if(isOpenButton == 0){
+                isOpenButton = 1
+                UIView.animate(withDuration: 0.1, animations: {
+                    self.topView.btnAlbum.frame.origin.x = self.topView.btnAlbum.frame.origin.x - 5
+                    self.topView.btnMusic.frame.origin.x = self.topView.btnMusic.frame.origin.x + 5
+                }) { (Bool) in
+                    self.shakeAnimation()
+                }
+            }
+            topView.albumTopButton.alpha = 1
+            topView.albumTopButton.frame.origin.y = 100
+        }
+        
+        let height = min(max(y, navigationHeight), 800)
+        topView.frame = CGRect(x: 0, y: statusHeight, width: UIScreen.main.bounds.size.width, height: height)
+        
+        if(y >= topViewSize){
+            topView.albumimage.transform = CGAffineTransform(scaleX: (y/topViewSize), y: (y/topViewSize))
+            topView.albumTop.constant = 25
+        }else{
+            topView.albumTop.constant = (y-(topViewSize-25))+((y-topViewSize)*0.6)
+        }
+        
+        if(y >= topViewSize){
+            let final = ((450)-y) / ((450) - topViewSize)
+            topView.albumButton.alpha = CGFloat(final)
+        }else if (newHeaderViewHeight > topViewSize){
+            let alphavalue = (newHeaderViewHeight/topViewSize) - 1
+            topView.albumButton.alpha = CGFloat(alphavalue)
+        }
+    }
 ```
