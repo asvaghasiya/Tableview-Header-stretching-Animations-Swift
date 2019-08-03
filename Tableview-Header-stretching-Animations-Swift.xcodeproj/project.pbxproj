@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44908B7822F5B2CA002817C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44908B7722F5B2CA002817C9 /* AppDelegate.swift */; };
+		44908B7A22F5B2CA002817C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44908B7922F5B2CA002817C9 /* ViewController.swift */; };
+		44908B7D22F5B2CA002817C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44908B7B22F5B2CA002817C9 /* Main.storyboard */; };
+		44908B7F22F5B2CB002817C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44908B7E22F5B2CB002817C9 /* Assets.xcassets */; };
+		44908B8222F5B2CB002817C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44908B8022F5B2CB002817C9 /* LaunchScreen.storyboard */; };
+		44908B8D22F5B2CB002817C9 /* Tableview_Header_stretching_Animations_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44908B8C22F5B2CB002817C9 /* Tableview_Header_stretching_Animations_SwiftTests.swift */; };
+		44908B9822F5B2CB002817C9 /* Tableview_Header_stretching_Animations_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44908B9722F5B2CB002817C9 /* Tableview_Header_stretching_Animations_SwiftUITests.swift */; };
+		44908BA622F5B315002817C9 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44908BA522F5B315002817C9 /* CustomTableViewCell.swift */; };
+		44908BAD22F5B322002817C9 /* icn_music.png in Resources */ = {isa = PBXBuildFile; fileRef = 44908BA822F5B322002817C9 /* icn_music.png */; };
+		44908BAE22F5B322002817C9 /* backimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 44908BA922F5B322002817C9 /* backimage.png */; };
+		44908BAF22F5B322002817C9 /* poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44908BAA22F5B322002817C9 /* poster.jpg */; };
+		44908BB022F5B322002817C9 /* icn_more.png in Resources */ = {isa = PBXBuildFile; fileRef = 44908BAB22F5B322002817C9 /* icn_more.png */; };
+		44908BB122F5B322002817C9 /* icn_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 44908BAC22F5B322002817C9 /* icn_play.png */; };
+		44908BB522F5B335002817C9 /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44908BB322F5B334002817C9 /* TopView.xib */; };
+		44908BB622F5B335002817C9 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44908BB422F5B334002817C9 /* TopView.swift */; };
+		44908BB822F5B3E9002817C9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 44908BB722F5B3E9002817C9 /* README.md */; };
+		44908BBE22F5B58C002817C9 /* Tableview-Header-stretching-Animations-Swift.gif in Resources */ = {isa = PBXBuildFile; fileRef = 44908BBD22F5B58C002817C9 /* Tableview-Header-stretching-Animations-Swift.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44908B8922F5B2CB002817C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44908B6C22F5B2CA002817C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44908B7322F5B2CA002817C9;
+			remoteInfo = "Tableview-Header-stretching-Animations-Swift";
+		};
+		44908B9422F5B2CB002817C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44908B6C22F5B2CA002817C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44908B7322F5B2CA002817C9;
+			remoteInfo = "Tableview-Header-stretching-Animations-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44908B7422F5B2CA002817C9 /* Tableview-Header-stretching-Animations-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tableview-Header-stretching-Animations-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44908B7722F5B2CA002817C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44908B7922F5B2CA002817C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44908B7C22F5B2CA002817C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44908B7E22F5B2CB002817C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44908B8122F5B2CB002817C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44908B8322F5B2CB002817C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44908B8822F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tableview-Header-stretching-Animations-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44908B8C22F5B2CB002817C9 /* Tableview_Header_stretching_Animations_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tableview_Header_stretching_Animations_SwiftTests.swift; sourceTree = "<group>"; };
+		44908B8E22F5B2CB002817C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44908B9322F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tableview-Header-stretching-Animations-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44908B9722F5B2CB002817C9 /* Tableview_Header_stretching_Animations_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tableview_Header_stretching_Animations_SwiftUITests.swift; sourceTree = "<group>"; };
+		44908B9922F5B2CB002817C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44908BA522F5B315002817C9 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		44908BA822F5B322002817C9 /* icn_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_music.png; sourceTree = "<group>"; };
+		44908BA922F5B322002817C9 /* backimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backimage.png; sourceTree = "<group>"; };
+		44908BAA22F5B322002817C9 /* poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poster.jpg; sourceTree = "<group>"; };
+		44908BAB22F5B322002817C9 /* icn_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_more.png; sourceTree = "<group>"; };
+		44908BAC22F5B322002817C9 /* icn_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_play.png; sourceTree = "<group>"; };
+		44908BB322F5B334002817C9 /* TopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopView.xib; sourceTree = "<group>"; };
+		44908BB422F5B334002817C9 /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		44908BB722F5B3E9002817C9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		44908BBD22F5B58C002817C9 /* Tableview-Header-stretching-Animations-Swift.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Tableview-Header-stretching-Animations-Swift.gif"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44908B7122F5B2CA002817C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44908B8522F5B2CB002817C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44908B9022F5B2CB002817C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44908B6B22F5B2CA002817C9 = {
+			isa = PBXGroup;
+			children = (
+				44908B7622F5B2CA002817C9 /* Tableview-Header-stretching-Animations-Swift */,
+				44908B8B22F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftTests */,
+				44908B9622F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftUITests */,
+				44908B7522F5B2CA002817C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44908B7522F5B2CA002817C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44908B7422F5B2CA002817C9 /* Tableview-Header-stretching-Animations-Swift.app */,
+				44908B8822F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftTests.xctest */,
+				44908B9322F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44908B7622F5B2CA002817C9 /* Tableview-Header-stretching-Animations-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				44908B7722F5B2CA002817C9 /* AppDelegate.swift */,
+				44908B7922F5B2CA002817C9 /* ViewController.swift */,
+				44908BA522F5B315002817C9 /* CustomTableViewCell.swift */,
+				44908B7B22F5B2CA002817C9 /* Main.storyboard */,
+				44908BB222F5B334002817C9 /* Cell */,
+				44908BA722F5B322002817C9 /* images */,
+				44908B7E22F5B2CB002817C9 /* Assets.xcassets */,
+				44908BBD22F5B58C002817C9 /* Tableview-Header-stretching-Animations-Swift.gif */,
+				44908BB722F5B3E9002817C9 /* README.md */,
+				44908B8022F5B2CB002817C9 /* LaunchScreen.storyboard */,
+				44908B8322F5B2CB002817C9 /* Info.plist */,
+			);
+			path = "Tableview-Header-stretching-Animations-Swift";
+			sourceTree = "<group>";
+		};
+		44908B8B22F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				44908B8C22F5B2CB002817C9 /* Tableview_Header_stretching_Animations_SwiftTests.swift */,
+				44908B8E22F5B2CB002817C9 /* Info.plist */,
+			);
+			path = "Tableview-Header-stretching-Animations-SwiftTests";
+			sourceTree = "<group>";
+		};
+		44908B9622F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44908B9722F5B2CB002817C9 /* Tableview_Header_stretching_Animations_SwiftUITests.swift */,
+				44908B9922F5B2CB002817C9 /* Info.plist */,
+			);
+			path = "Tableview-Header-stretching-Animations-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		44908BA722F5B322002817C9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				44908BA822F5B322002817C9 /* icn_music.png */,
+				44908BA922F5B322002817C9 /* backimage.png */,
+				44908BAA22F5B322002817C9 /* poster.jpg */,
+				44908BAB22F5B322002817C9 /* icn_more.png */,
+				44908BAC22F5B322002817C9 /* icn_play.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		44908BB222F5B334002817C9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				44908BB322F5B334002817C9 /* TopView.xib */,
+				44908BB422F5B334002817C9 /* TopView.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44908B7322F5B2CA002817C9 /* Tableview-Header-stretching-Animations-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44908B9C22F5B2CB002817C9 /* Build configuration list for PBXNativeTarget "Tableview-Header-stretching-Animations-Swift" */;
+			buildPhases = (
+				44908B7022F5B2CA002817C9 /* Sources */,
+				44908B7122F5B2CA002817C9 /* Frameworks */,
+				44908B7222F5B2CA002817C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tableview-Header-stretching-Animations-Swift";
+			productName = "Tableview-Header-stretching-Animations-Swift";
+			productReference = 44908B7422F5B2CA002817C9 /* Tableview-Header-stretching-Animations-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44908B8722F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44908B9F22F5B2CB002817C9 /* Build configuration list for PBXNativeTarget "Tableview-Header-stretching-Animations-SwiftTests" */;
+			buildPhases = (
+				44908B8422F5B2CB002817C9 /* Sources */,
+				44908B8522F5B2CB002817C9 /* Frameworks */,
+				44908B8622F5B2CB002817C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44908B8A22F5B2CB002817C9 /* PBXTargetDependency */,
+			);
+			name = "Tableview-Header-stretching-Animations-SwiftTests";
+			productName = "Tableview-Header-stretching-Animations-SwiftTests";
+			productReference = 44908B8822F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44908B9222F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44908BA222F5B2CB002817C9 /* Build configuration list for PBXNativeTarget "Tableview-Header-stretching-Animations-SwiftUITests" */;
+			buildPhases = (
+				44908B8F22F5B2CB002817C9 /* Sources */,
+				44908B9022F5B2CB002817C9 /* Frameworks */,
+				44908B9122F5B2CB002817C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44908B9522F5B2CB002817C9 /* PBXTargetDependency */,
+			);
+			name = "Tableview-Header-stretching-Animations-SwiftUITests";
+			productName = "Tableview-Header-stretching-Animations-SwiftUITests";
+			productReference = 44908B9322F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44908B6C22F5B2CA002817C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sanket Vaghela";
+				TargetAttributes = {
+					44908B7322F5B2CA002817C9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					44908B8722F5B2CB002817C9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 44908B7322F5B2CA002817C9;
+					};
+					44908B9222F5B2CB002817C9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 44908B7322F5B2CA002817C9;
+					};
+				};
+			};
+			buildConfigurationList = 44908B6F22F5B2CA002817C9 /* Build configuration list for PBXProject "Tableview-Header-stretching-Animations-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44908B6B22F5B2CA002817C9;
+			productRefGroup = 44908B7522F5B2CA002817C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44908B7322F5B2CA002817C9 /* Tableview-Header-stretching-Animations-Swift */,
+				44908B8722F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftTests */,
+				44908B9222F5B2CB002817C9 /* Tableview-Header-stretching-Animations-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44908B7222F5B2CA002817C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44908BBE22F5B58C002817C9 /* Tableview-Header-stretching-Animations-Swift.gif in Resources */,
+				44908BB022F5B322002817C9 /* icn_more.png in Resources */,
+				44908B8222F5B2CB002817C9 /* LaunchScreen.storyboard in Resources */,
+				44908BB822F5B3E9002817C9 /* README.md in Resources */,
+				44908B7F22F5B2CB002817C9 /* Assets.xcassets in Resources */,
+				44908BB522F5B335002817C9 /* TopView.xib in Resources */,
+				44908BAF22F5B322002817C9 /* poster.jpg in Resources */,
+				44908BAE22F5B322002817C9 /* backimage.png in Resources */,
+				44908BAD22F5B322002817C9 /* icn_music.png in Resources */,
+				44908BB122F5B322002817C9 /* icn_play.png in Resources */,
+				44908B7D22F5B2CA002817C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44908B8622F5B2CB002817C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44908B9122F5B2CB002817C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44908B7022F5B2CA002817C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44908BA622F5B315002817C9 /* CustomTableViewCell.swift in Sources */,
+				44908B7A22F5B2CA002817C9 /* ViewController.swift in Sources */,
+				44908BB622F5B335002817C9 /* TopView.swift in Sources */,
+				44908B7822F5B2CA002817C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44908B8422F5B2CB002817C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44908B8D22F5B2CB002817C9 /* Tableview_Header_stretching_Animations_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44908B8F22F5B2CB002817C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44908B9822F5B2CB002817C9 /* Tableview_Header_stretching_Animations_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44908B8A22F5B2CB002817C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44908B7322F5B2CA002817C9 /* Tableview-Header-stretching-Animations-Swift */;
+			targetProxy = 44908B8922F5B2CB002817C9 /* PBXContainerItemProxy */;
+		};
+		44908B9522F5B2CB002817C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44908B7322F5B2CA002817C9 /* Tableview-Header-stretching-Animations-Swift */;
+			targetProxy = 44908B9422F5B2CB002817C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44908B7B22F5B2CA002817C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44908B7C22F5B2CA002817C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44908B8022F5B2CB002817C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44908B8122F5B2CB002817C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44908B9A22F5B2CB002817C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44908B9B22F5B2CB002817C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44908B9D22F5B2CB002817C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37QRR9N3P9;
+				INFOPLIST_FILE = "Tableview-Header-stretching-Animations-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "artoon.Tableview-Header-stretching-Animations-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44908B9E22F5B2CB002817C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37QRR9N3P9;
+				INFOPLIST_FILE = "Tableview-Header-stretching-Animations-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "artoon.Tableview-Header-stretching-Animations-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44908BA022F5B2CB002817C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37QRR9N3P9;
+				INFOPLIST_FILE = "Tableview-Header-stretching-Animations-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "artoon.Tableview-Header-stretching-Animations-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tableview-Header-stretching-Animations-Swift.app/Tableview-Header-stretching-Animations-Swift";
+			};
+			name = Debug;
+		};
+		44908BA122F5B2CB002817C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37QRR9N3P9;
+				INFOPLIST_FILE = "Tableview-Header-stretching-Animations-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "artoon.Tableview-Header-stretching-Animations-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tableview-Header-stretching-Animations-Swift.app/Tableview-Header-stretching-Animations-Swift";
+			};
+			name = Release;
+		};
+		44908BA322F5B2CB002817C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37QRR9N3P9;
+				INFOPLIST_FILE = "Tableview-Header-stretching-Animations-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "artoon.Tableview-Header-stretching-Animations-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tableview-Header-stretching-Animations-Swift";
+			};
+			name = Debug;
+		};
+		44908BA422F5B2CB002817C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37QRR9N3P9;
+				INFOPLIST_FILE = "Tableview-Header-stretching-Animations-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "artoon.Tableview-Header-stretching-Animations-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tableview-Header-stretching-Animations-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44908B6F22F5B2CA002817C9 /* Build configuration list for PBXProject "Tableview-Header-stretching-Animations-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44908B9A22F5B2CB002817C9 /* Debug */,
+				44908B9B22F5B2CB002817C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44908B9C22F5B2CB002817C9 /* Build configuration list for PBXNativeTarget "Tableview-Header-stretching-Animations-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44908B9D22F5B2CB002817C9 /* Debug */,
+				44908B9E22F5B2CB002817C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44908B9F22F5B2CB002817C9 /* Build configuration list for PBXNativeTarget "Tableview-Header-stretching-Animations-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44908BA022F5B2CB002817C9 /* Debug */,
+				44908BA122F5B2CB002817C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44908BA222F5B2CB002817C9 /* Build configuration list for PBXNativeTarget "Tableview-Header-stretching-Animations-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44908BA322F5B2CB002817C9 /* Debug */,
+				44908BA422F5B2CB002817C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44908B6C22F5B2CA002817C9 /* Project object */;
+}
