@@ -2,8 +2,8 @@
 //  Tableview_Header_stretching_Animations_SwiftTests.swift
 //  Tableview-Header-stretching-Animations-SwiftTests
 //
-//  Created by Sanket Vaghela on 03/08/19.
-//  Copyright © 2019 Sanket Vaghela. All rights reserved.
+//  Created by Artoon Solutions Private Limited on 03/08/19.
+//  Copyright © 2019 Artoon Solutions Private Limited. All rights reserved.
 //
 
 import XCTest

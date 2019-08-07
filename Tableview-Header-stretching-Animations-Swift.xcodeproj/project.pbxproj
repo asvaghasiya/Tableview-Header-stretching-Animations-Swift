@@ -22,8 +22,6 @@
 		44908BB122F5B322002817C9 /* icn_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 44908BAC22F5B322002817C9 /* icn_play.png */; };
 		44908BB522F5B335002817C9 /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44908BB322F5B334002817C9 /* TopView.xib */; };
 		44908BB622F5B335002817C9 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44908BB422F5B334002817C9 /* TopView.swift */; };
-		44908BB822F5B3E9002817C9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 44908BB722F5B3E9002817C9 /* README.md */; };
-		44908BBE22F5B58C002817C9 /* Tableview-Header-stretching-Animations-Swift.gif in Resources */ = {isa = PBXBuildFile; fileRef = 44908BBD22F5B58C002817C9 /* Tableview-Header-stretching-Animations-Swift.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +63,6 @@
 		44908BAC22F5B322002817C9 /* icn_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_play.png; sourceTree = "<group>"; };
 		44908BB322F5B334002817C9 /* TopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopView.xib; sourceTree = "<group>"; };
 		44908BB422F5B334002817C9 /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
-		44908BB722F5B3E9002817C9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		44908BBD22F5B58C002817C9 /* Tableview-Header-stretching-Animations-Swift.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Tableview-Header-stretching-Animations-Swift.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +120,6 @@
 				44908BB222F5B334002817C9 /* Cell */,
 				44908BA722F5B322002817C9 /* images */,
 				44908B7E22F5B2CB002817C9 /* Assets.xcassets */,
-				44908BBD22F5B58C002817C9 /* Tableview-Header-stretching-Animations-Swift.gif */,
-				44908BB722F5B3E9002817C9 /* README.md */,
 				44908B8022F5B2CB002817C9 /* LaunchScreen.storyboard */,
 				44908B8322F5B2CB002817C9 /* Info.plist */,
 			);
@@ -275,10 +269,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44908BBE22F5B58C002817C9 /* Tableview-Header-stretching-Animations-Swift.gif in Resources */,
 				44908BB022F5B322002817C9 /* icn_more.png in Resources */,
 				44908B8222F5B2CB002817C9 /* LaunchScreen.storyboard in Resources */,
-				44908BB822F5B3E9002817C9 /* README.md in Resources */,
 				44908B7F22F5B2CB002817C9 /* Assets.xcassets in Resources */,
 				44908BB522F5B335002817C9 /* TopView.xib in Resources */,
 				44908BAF22F5B322002817C9 /* poster.jpg in Resources */,

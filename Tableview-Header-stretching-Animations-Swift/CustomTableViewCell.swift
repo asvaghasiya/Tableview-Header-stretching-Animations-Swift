@@ -2,8 +2,8 @@
 //  CustomTableViewCell.swift
 //  StretchableTableViewHeader
 //
-//  Created by Romin Dhameliya on 06/06/19.
-//  Copyright © 2019 Romin Dhameliya. All rights reserved.
+//  Created by Artoon Solutions Private Limited on 06/06/19.
+//  Copyright © 2019 Artoon Solutions Private Limited. All rights reserved.
 //
 
 import UIKit
